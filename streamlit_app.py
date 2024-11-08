@@ -10,7 +10,7 @@ if st.buttons("CLICK ME"):
 # Import the class labels from labels.txt and assign to a list
 #classes = [' '.join(x.split(' ')[1:]).replace('\n','') for x in open('labels.txt', 'r').readlines()]
 # Load the Model
-model = load_model('keras_model.h5', compile = False)
+#model = load_model('keras_model.h5', compile = False)
 
 # Create the streamlit Title and camera_input
 #st.title(f'Is it {classes[0]} or {classes[1]}!?')
